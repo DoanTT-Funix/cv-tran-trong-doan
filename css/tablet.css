@@ -1,0 +1,37 @@
+/* Tablet and under [screen's width: 768px..992px] */
+@media (max-width: 992px) {
+  .px-handle {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  /* NAVBAR */
+  #nav-bar ul li:nth-child(3) p {
+    display: none;
+  }
+  #nav-bar ul li:nth-child(3) {
+    padding: 0 !important;
+  }
+  #nav-bar ul > li:nth-child(2),
+  #nav-bar ul > li:nth-child(5) {
+    border-right: 1px solid #dee2e6;
+    padding-right: 24px;
+  }
+  #nav-bar ul li {
+    flex-direction: row-reverse;
+    gap: 0 !important;
+  }
+  #nav-bar ul li a {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 12px;
+  }
+
+  /* JOB-INFO */
+  #job-info div > span i {
+    position: relative;
+    top: -30px;
+    left: -50px;
+    font-size: 40px;
+  }
+  /* CERTIFICATE */
+}
